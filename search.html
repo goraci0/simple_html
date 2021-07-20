@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Поиск вакансий</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<style>
+    .class-name {
+    color: yellow;
+    line-height: 2em;
+    background-color: brown
+    }
+
+</style>
+</head>
+
+<body>
+<h1 class = 'class-name '>Поиск вакансий</h1>
+
+<form action = 'vacancies.html'>
+    <div class="form-group">
+        <label>Описание:</label>
+        <input class="form-control" name = 'name' type = 'text' value = 'Вакансия'/>
+    </div>
+    <div class="form-group">
+        <label >Город:</label>
+        <select class="form-control" name = 'area'>
+            <option value = '1' selected = 'selected'> Москва </option>
+            <option value = '68'> Омск </option>
+            <option value = '1454'> Новороссиийск </option>
+        </select>
+    </div>
+    <div>
+        <label>Комментарии:</label></br>
+        <textarea class="form-control" name = 'comment'> </textarea>
+    </div>
+    </br>
+    <div>
+         <input  class = 'btn btn-primary' type = 'submit' name = 'enter' value = 'Поиск'/>
+    </div>
+</form>
+
+<p> <a href = 'index.html'> Go to main page </a> </p>
+
+</body>
+</html>
